@@ -1,4 +1,3 @@
-AW
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,356 +5,372 @@ AW
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Editor de video profesional especializado en contenido para redes sociales, publicidad y marcas. Transformo ideas en videos de alto impacto.">
-    <meta name="keywords"
-        content="edición de video, video editor, redes sociales, reels, tiktok, shorts, motion graphics, after effects, premiere pro">
-    <title>Editor de Video Profesional | Edición que Impulsa Ventas y Engagement</title>
-    <link rel="stylesheet" href="styles.css">
+        content="Editor de video premium para marcas, creadores y negocios que quieren verse mejor, retener mas y convertir mas.">
+    <title>Editor de video premium | Videos que venden, retienen y elevan tu marca</title>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 
 <body>
-    <!-- Modern Editor Background Overhaul -->
-    <div class="background-glow-container">
-        <div class="bg-grid"></div>
-        <div class="bg-blob blob-1"></div>
-        <div class="bg-blob blob-2"></div>
-        <div class="bg-blob blob-3"></div>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
 
-        <!-- Ambient Text -->
-        <div class="bg-ambient-text ambient-motion">MOTION</div>
-        <div class="bg-ambient-text ambient-visual">VISUAL</div>
-        <div class="bg-ambient-text ambient-editor">EDITOR</div>
+    <header class="site-header" id="siteHeader">
+        <div class="container header-bar">
+            <a href="#home" class="brand">Matias Ortiz</a>
 
-        <!-- Editor UI Decorations -->
-        <div class="editor-ui-element ui-playhead" style="left: 15%;"></div>
-        <div class="editor-ui-element ui-timecode" style="top: 10%; right: 5%;">00:04:12:15</div>
-
-        <div class="bg-logo bg-logo-pr"></div>
-        <div class="bg-logo bg-logo-ae"></div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Matias Ortiz</a>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Inicio</a></li>
-                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
-                <li><a href="#services" class="nav-link">Servicios</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li><a href="#contact" class="nav-link">Contacto</a></li>
-            </ul>
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-                <span></span>
+            <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Abrir menu">
                 <span></span>
                 <span></span>
             </button>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero section" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text fade-in-up" style="animation-delay: 0.2s;">
-                    <h1>Edición de videos que impulsa <span class="gradient-text">ventas y engagement</span></h1>
-                    <p>Transformo ideas en videos de alto impacto para marcas, creadores y negocios</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary btn-large">Contactarme</a>
-                        <a href="#portfolio" class="btn btn-outline btn-large">Ver Portfolio</a>
-                    </div>
-                </div>
-                <div class="hero-image fade-in-up" style="animation-delay: 0.4s;">
-                    <img src="images/hero_editing_workspace_1769295672402.png"
-                        alt="Espacio de trabajo de edición de video profesional">
-                </div>
-            </div>
+            <nav class="nav" id="navMenu" aria-label="Principal">
+                <a href="#problem">Problema</a>
+                <a href="#solution">Solucion</a>
+                <a href="#benefits">Beneficios</a>
+                <a href="#demo">Demo</a>
+                <a href="#contact" class="nav-cta">Reservar llamada</a>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <!-- About Section -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="section-title scroll-reveal">
-                <h2>Sobre <span class="gradient-text">Mí</span></h2>
-            </div>
-            <div class="bento-grid">
-                <!-- Main Card -->
-                <div class="card bento-item bento-2x2 scroll-reveal">
-                    <h3 style="font-size: var(--font-size-2xl); margin-bottom: var(--spacing-sm);">Estratega <span
-                            class="gradient-text">Visual</span></h3>
-                    <p>Soy editor de video profesional con un enfoque estratégico orientado a resultados. No solo edito
-                        videos: transformo ideas crudas en piezas visuales de alto impacto, diseñadas para captar
-                        atención, retener audiencias y generar acciones concretas para marcas y creadores.</p>
-                    <p style="margin-top: 1rem;">Cada proyecto comienza con un análisis profundo del objetivo del
-                        contenido y del comportamiento del espectador. Estudio la retención, el ritmo, la narrativa y
-                        los puntos clave de atención para construir videos que no solo se vean bien, sino que funcionen.
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy is-visible" data-reveal>
+                    <p class="eyebrow">Edicion premium para marcas y creadores</p>
+                    <h1>Videos que hacen que tu marca se vea imposible de ignorar.</h1>
+                    <p class="hero-lead">
+                        Transformo material crudo en piezas limpias, dinamicas y listas para vender, retener y elevar
+                        el valor percibido de tu negocio.
                     </p>
-                    <p style="margin-top: 1rem;">Trabajo combinando creatividad técnica con una mirada analítica,
-                        utilizando edición dinámica, motion graphics y storytelling visual para potenciar el mensaje de
-                        cada marca. El resultado son piezas optimizadas para destacar en entornos competitivos y
-                        convertir visualizaciones en resultados reales.</p>
-                </div>
 
-                <!-- Stats -->
-                <div class="card bento-item bento-1x1 scroll-reveal"
-                    style="display: flex; align-items: center; justify-content: center; text-align: center;">
-                    <div>
-                        <span class="stat-number">+500</span>
-                        <p
-                            style="font-size: 0.7rem; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 1px;">
-                            Videos</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Quiero una propuesta</a>
+                        <a href="#demo" class="btn btn-secondary">Ver demo</a>
                     </div>
+
+                    <ul class="trust-list" aria-label="Prueba rapida">
+                        <li>+500 videos entregados</li>
+                        <li>Reels, ads y motion</li>
+                        <li>Entrega clara y sin friccion</li>
+                    </ul>
                 </div>
 
-                <!-- Tools -->
-                <div class="card bento-item bento-1x2 scroll-reveal"
-                    style="display: flex; flex-direction: column; justify-content: center; gap: 2rem;">
-                    <h3 style="font-size: var(--font-size-3xl); margin-bottom: 0;">Stack Pro</h3>
-                    <div class="tools-grid" style="flex-direction: column; gap: 1rem; align-items: stretch;">
-                        <span class="tool-badge"
-                            style="font-size: var(--font-size-xl); padding: 1.5rem; text-align: center;">After
-                            Effects</span>
-                        <span class="tool-badge"
-                            style="font-size: var(--font-size-xl); padding: 1.5rem; text-align: center;">Premiere
-                            Pro</span>
+                <div class="hero-stage is-visible" data-reveal>
+                    <div class="stage-topline">
+                        <span class="stage-badge">Hook claro</span>
+                        <span class="stage-badge">Look premium</span>
+                        <span class="stage-badge">CTA visible</span>
                     </div>
-                </div>
 
-                <!-- Expertise -->
-                <div class="card bento-item bento-1x1 scroll-reveal"
-                    style="display: flex; align-items: center; justify-content: center;">
-                    <div style="text-align: center;">
-                        <span style="font-size: 2rem;">⚡</span>
-                        <p style="font-size: 0.7rem; margin-top: 0.5rem; text-transform: uppercase;">Engagement</p>
+                    <div class="stage-preview">
+                        <img src="images/hero_editing_workspace_1769295672402.png"
+                            alt="Workspace de edicion de video premium" loading="eager">
+                    </div>
+
+                    <div class="stage-metrics">
+                        <article class="metric-card">
+                            <strong>3s</strong>
+                            <span>para captar atencion</span>
+                        </article>
+                        <article class="metric-card">
+                            <strong>24-72h</strong>
+                            <span>ritmo de entrega</span>
+                        </article>
+                        <article class="metric-card">
+                            <strong>9:16 / 16:9</strong>
+                            <span>listo para cada canal</span>
+                        </article>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Creative Process Section -->
-    <section class="section section-alt" id="process">
-        <div class="container">
-            <div class="section-title scroll-reveal">
-                <h2>Mi Proceso <span class="gradient-text">Creativo</span></h2>
-                <p>Un flujo de trabajo optimizado para garantizar la máxima calidad en cada entrega</p>
-            </div>
-            <div class="grid grid-4 process-grid">
-                <div class="card scroll-reveal">
-                    <div class="card-number">01</div>
-                    <h3>Briefing y Estrategia</h3>
-                    <p>Analizamos tus objetivos, el tono de marca y el público objetivo para definir la línea creativa
-                        del video.</p>
-                </div>
-                <div class="card scroll-reveal">
-                    <div class="card-number">02</div>
-                    <h3>Montaje y Edición</h3>
-                    <p>Transformo el material crudo en una narrativa fluida, seleccionando los mejores momentos y
-                        aplicando ritmo.</p>
-                </div>
-                <div class="card scroll-reveal">
-                    <div class="card-number">03</div>
-                    <h3>Post-producción</h3>
-                    <p>Agregamos Motion Graphics, diseño sonoro, corrección de color y efectos visuales de alta gama.
+        <section class="section section-tight" id="problem">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Problema</p>
+                    <h2>Si tu video no engancha rapido, tu marca pierde valor antes de explicar lo que vende.</h2>
+                    <p class="section-lead">
+                        La mayoria del contenido falla por exceso de ruido, ritmo flojo y una presentacion que se ve
+                        mas improvisada que premium.
                     </p>
                 </div>
-                <div class="card scroll-reveal">
-                    <div class="card-number">04</div>
-                    <h3>Revisión y Entrega</h3>
-                    <p>Afinamos detalles según tu feedback y entregamos el video optimizado para cada plataforma.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Services Section -->
-    <section class="section" id="services">
-        <div class="container">
-            <div class="section-title scroll-reveal">
-                <h2>Mis <span class="gradient-text">Servicios</span></h2>
-                <p>Soluciones de edición profesional para impulsar tu marca</p>
-            </div>
-            <div class="bento-grid">
-                <div class="card bento-item bento-2x1 scroll-reveal">
-                    <div class="card-icon">📱</div>
-                    <h3>Reels & TikToks High-Retention</h3>
-                    <p>Contenido viral optimizado para retención máxima. Edición dinámica con ritmos acelerados.</p>
-                </div>
-                <div class="card bento-item bento-1x2 scroll-reveal"
-                    style="display: flex; flex-direction: column; justify-content: center;">
-                    <div class="card-icon">✨</div>
-                    <h3>Motion Graphics</h3>
-                    <p>Animaciones cinéticas y efectos visuales de alta gama para elevar tu marca.</p>
-                </div>
-                <div class="card bento-item bento-1x1 scroll-reveal">
-                    <div class="card-icon">🎬</div>
-                    <h3>Ads</h3>
-                </div>
-                <div class="card bento-item bento-2x1 scroll-reveal">
-                    <div class="card-icon">📺</div>
-                    <h3>Estrategia Publicitaria TV/Web</h3>
-                    <p>Storytelling comercial diseñado para convertir espectadores en clientes recurrentes.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="problem-grid">
+                    <article class="problem-card" data-reveal>
+                        <span class="card-index">01</span>
+                        <h3>Mucho material. Cero claridad.</h3>
+                        <p>Cuando todo compite por llamar la atencion, nada se recuerda y el mensaje pierde fuerza.</p>
+                    </article>
 
-    <!-- Portfolio Section -->
-    <section class="section" id="portfolio">
-        <div class="container">
-            <div class="section-title scroll-reveal">
-                <h2>Mi <span class="gradient-text">Portfolio</span></h2>
-                <p>Proyectos recientes que demuestran mi experiencia</p>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item scroll-reveal">
-                    <div class="portfolio-video-container">
-                        <video src="videos/WhatsApp Video 2026-01-05 at 16.41.04.mp4" muted loop playsinline></video>
-                        <div class="portfolio-play-hint"><span>▶</span></div>
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Edición Dinámica para Redes</h3>
-                        <p>Contenido optimizado para Reels y TikToks con transiciones de alto impacto.</p>
-                        <span class="portfolio-badge">Redes Sociales</span>
-                    </div>
-                </div>
-                <div class="portfolio-item scroll-reveal">
-                    <div class="portfolio-video-container">
-                        <video src="videos/WhatsApp Video 2026-01-19 at 14.49.07.mp4" muted loop playsinline></video>
-                        <div class="portfolio-play-hint"><span>▶</span></div>
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Storytelling Visual Premium</h3>
-                        <p>Edición cinematográfica para marcas que buscan destacar con calidad profesional.</p>
-                        <span class="portfolio-badge">Publicidad</span>
-                    </div>
-                </div>
-                <div class="portfolio-item scroll-reveal">
-                    <div class="portfolio-video-container">
-                        <video src="videos/WhatsApp Video 2026-01-24 at 02.39.50.mp4" muted loop playsinline></video>
-                        <div class="portfolio-play-hint"><span>▶</span></div>
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Motion Graphics e Impacto</h3>
-                        <p>Animaciones dinámicas y efectos visuales que elevan el nivel de cada proyecto.</p>
-                        <span class="portfolio-badge">Motion Design</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <article class="problem-card" data-reveal>
+                        <span class="card-index">02</span>
+                        <h3>Se ve amateur, aunque el producto no lo sea.</h3>
+                        <p>Una edicion floja baja la percepcion de calidad y hace que el contenido parezca barato.</p>
+                    </article>
 
-    <!-- Testimonials Section -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <div class="section-title scroll-reveal">
-                <h2>Lo que dicen mis <span class="gradient-text">Clientes</span></h2>
+                    <article class="problem-card" data-reveal>
+                        <span class="card-index">03</span>
+                        <h3>Publicas mas, conviertes menos.</h3>
+                        <p>Sin estructura, sin ritmo y sin foco, el video consume tiempo pero no genera accion.</p>
+                    </article>
+                </div>
             </div>
-            <div class="grid grid-3">
-                <div class="testimonial-card scroll-reveal">
-                    <div class="testimonial-avatar-placeholder"
-                        style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 1.5rem; background: linear-gradient(135deg, #8b5cf6, #3b82f6);">
-                    </div>
-                    <p class="testimonial-text">
-                        "El trabajo de edición superó todas mis expectativas. Los videos que creó para mi marca
-                        aumentaron mi engagement un 300%. ¡Totalmente recomendado!"
+        </section>
+
+        <section class="section" id="solution">
+            <div class="container solution-layout">
+                <div class="solution-copy" data-reveal>
+                    <p class="eyebrow">Solucion</p>
+                    <h2>Un sistema de edicion simple para que tu contenido se vea premium y trabaje por vos.</h2>
+                    <p class="section-lead section-lead-left">
+                        Cada pieza se diseña con criterio visual, narrativa y foco en conversion. No es solo editar:
+                        es construir una experiencia que se siente profesional desde el primer frame.
                     </p>
-                    <p class="testimonial-author">María González</p>
-                    <p style="font-size: 0.875rem; color: var(--color-text-muted);">Creadora de Contenido</p>
+
+                    <ul class="solution-list">
+                        <li>Hook inicial pensado para detener el scroll</li>
+                        <li>Montaje con ritmo, limpieza y direccion visual</li>
+                        <li>Motion, color y sonido alineados a tu marca</li>
+                        <li>Entrega lista para publicar sin vueltas innecesarias</li>
+                    </ul>
                 </div>
-                <div class="testimonial-card scroll-reveal">
-                    <div class="testimonial-avatar-placeholder"
-                        style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 1.5rem; background: linear-gradient(135deg, #3b82f6, #8b5cf6);">
-                    </div>
-                    <p class="testimonial-text">
-                        "Profesional, rápido y con una visión creativa increíble. Transformó nuestro contenido simple en
-                        videos que realmente venden."
+
+                <div class="solution-stack" data-reveal>
+                    <article class="stack-card stack-card-accent">
+                        <p class="stack-label">Framework</p>
+                        <h3>Menos caos. Mas decision.</h3>
+                        <p>Cada video pasa por un proceso claro: mensaje, ritmo, polish y llamada a la accion.</p>
+                    </article>
+
+                    <article class="stack-card">
+                        <img src="images/portfolio_advertising_1769295700359.png"
+                            alt="Preview de contenido editado para publicidad" loading="lazy">
+                    </article>
+
+                    <article class="stack-card stack-card-steps">
+                        <div>
+                            <span>01</span>
+                            <p>Estrategia</p>
+                        </div>
+                        <div>
+                            <span>02</span>
+                            <p>Edicion</p>
+                        </div>
+                        <div>
+                            <span>03</span>
+                            <p>Entrega</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="benefits">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Beneficios</p>
+                    <h2>Mas views, mas engagement, mas confianza en lo que vendes.</h2>
+                    <p class="section-lead">
+                        La edicion correcta no solo hace que el video se vea mejor. Hace que tu marca se sienta mas
+                        seria, mas clara y mas deseable.
                     </p>
-                    <p class="testimonial-author">Carlos Martínez</p>
-                    <p style="font-size: 0.875rem; color: var(--color-text-muted);">Director de Marketing</p>
                 </div>
-                <div class="testimonial-card scroll-reveal">
-                    <div class="testimonial-avatar-placeholder"
-                        style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 1.5rem; background: linear-gradient(135deg, #a78bfa, #60a5fa);">
-                    </div>
-                    <p class="testimonial-text">
-                        "Edita con una calidad cinematográfica pero mantiene ese toque dinámico perfecto para redes
-                        sociales. Mis videos nunca se vieron mejor."
+
+                <div class="stats-grid">
+                    <article class="stat-card" data-reveal>
+                        <strong>+300%</strong>
+                        <span>potencial de engagement en piezas con mejor ritmo visual</span>
+                    </article>
+                    <article class="stat-card" data-reveal>
+                        <strong>1 mensaje</strong>
+                        <span>claro por video para que el contenido se entienda rapido</span>
+                    </article>
+                    <article class="stat-card" data-reveal>
+                        <strong>Premium</strong>
+                        <span>percepcion de marca mas fuerte en cada publicacion</span>
+                    </article>
+                </div>
+
+                <div class="benefits-grid">
+                    <article class="benefit-card" data-reveal>
+                        <h3>Mas retencion</h3>
+                        <p>Hooks, cortes y estructura pensados para que el usuario no abandone en los primeros
+                            segundos.</p>
+                    </article>
+                    <article class="benefit-card" data-reveal>
+                        <h3>Mas autoridad</h3>
+                        <p>Una direccion visual limpia hace que el producto se perciba mas serio, moderno y valioso.</p>
+                    </article>
+                    <article class="benefit-card" data-reveal>
+                        <h3>Mas conversion</h3>
+                        <p>El contenido deja de ser solo estetico y empieza a empujar una accion concreta.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="demo">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Demo</p>
+                    <h2>Mismo material. Percepcion completamente distinta.</h2>
+                    <p class="section-lead">
+                        La diferencia entre un video mas y una pieza que vende suele estar en el ritmo, el criterio y el
+                        acabado final.
                     </p>
-                    <p class="testimonial-author">Ana Rodríguez</p>
-                    <p style="font-size: 0.875rem; color: var(--color-text-muted);">Fundadora de Startup</p>
+                </div>
+
+                <div class="demo-spotlight">
+                    <div class="phone-frame" data-reveal>
+                        <video class="demo-video" data-autoplay src="videos/WhatsApp Video 2026-01-19 at 14.49.07.mp4"
+                            poster="images/portfolio_advertising_1769295700359.png" muted loop playsinline
+                            preload="metadata"></video>
+                    </div>
+
+                    <div class="comparison-grid" data-reveal>
+                        <article class="comparison-card comparison-card-muted">
+                            <p class="comparison-label">Antes</p>
+                            <h3>Contenido correcto, pero olvidable.</h3>
+                            <ul>
+                                <li>Inicio sin tension ni gancho</li>
+                                <li>Visual desordenado</li>
+                                <li>Sin jerarquia ni foco</li>
+                            </ul>
+                        </article>
+
+                        <article class="comparison-card comparison-card-accent">
+                            <p class="comparison-label">Despues</p>
+                            <h3>Una pieza que se siente premium y orientada a resultado.</h3>
+                            <ul>
+                                <li>Entrada clara y rapida</li>
+                                <li>Ritmo visual que sostiene atencion</li>
+                                <li>Look final alineado a marca</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="demo-grid">
+                    <article class="demo-card" data-reveal>
+                        <video class="demo-video" data-autoplay src="videos/WhatsApp Video 2026-01-05 at 16.41.04.mp4"
+                            poster="images/portfolio_social_media_1769295686799.png" muted loop playsinline
+                            preload="metadata"></video>
+                        <div>
+                            <h3>Reels de alta retencion</h3>
+                            <p>Cortes agiles, subtitulado estrategico y una energia pensada para redes.</p>
+                        </div>
+                    </article>
+
+                    <article class="demo-card" data-reveal>
+                        <video class="demo-video" data-autoplay src="videos/WhatsApp Video 2026-01-24 at 02.39.50.mp4"
+                            poster="images/portfolio_motion_graphics_1769295712518.png" muted loop playsinline
+                            preload="metadata"></video>
+                        <div>
+                            <h3>Motion que eleva percepcion</h3>
+                            <p>Animacion, detalle y direccion visual para que la pieza se sienta mas cara.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section class="section" id="contact">
-        <div class="container">
-            <div class="contact-container">
-                <div class="contact-intro scroll-reveal">
-                    <h2>¿Tenés un proyecto en mente?</h2>
-                    <p class="gradient-text" style="font-size: 1.5rem; font-weight: 600;">Hablemos.</p>
+        <section class="section section-muted" id="social">
+            <div class="container">
+                <div class="section-heading" data-reveal>
+                    <p class="eyebrow">Prueba social</p>
+                    <h2>Cuando el contenido se ve mejor, la respuesta del publico cambia.</h2>
+                    <p class="section-lead">
+                        La mezcla correcta de estrategia, estetica y ejecucion hace que los videos no solo gusten: que
+                        funcionen.
+                    </p>
                 </div>
 
-                <form class="contact-form scroll-reveal" id="contactForm">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Nombre</label>
-                        <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com"
-                            required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="form-label">Mensaje</label>
-                        <textarea id="message" name="message" class="form-textarea"
-                            placeholder="Contame sobre tu proyecto..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Enviar Mensaje</button>
-                </form>
-
-                <div class="contact-buttons scroll-reveal">
-                    <a href="mailto:contacto@videoeditor.com" class="btn btn-outline btn-large">
-                        📧 Enviar Email
-                    </a>
-                    <a href="https://wa.me/5491112345678?text=Hola!%20Me%20interesa%20hablar%20sobre%20un%20proyecto%20de%20edición%20de%20video"
-                        target="_blank" class="btn btn-primary btn-large">
-                        📱 WhatsApp
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="social-links">
-                    <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">📷</a>
-                    <a href="https://youtube.com" target="_blank" class="social-link" aria-label="YouTube">▶️</a>
-                    <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">🎵</a>
-                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">💼</a>
+                <div class="proof-metrics">
+                    <article class="proof-metric" data-reveal>
+                        <strong>+500</strong>
+                        <span>piezas entregadas</span>
+                    </article>
+                    <article class="proof-metric" data-reveal>
+                        <strong>Marcas y creadores</strong>
+                        <span>contenido adaptable a distintos objetivos</span>
+                    </article>
+                    <article class="proof-metric" data-reveal>
+                        <strong>Proceso claro</strong>
+                        <span>feedback simple y entregas ordenadas</span>
+                    </article>
                 </div>
 
-                <div class="footer-info">
-                    <p style="margin-bottom: 0.5rem;">📧 contacto@videoeditor.com</p>
-                    <p style="margin-bottom: 0.5rem;">📱 WhatsApp: +54 9 11 1234-5678</p>
-                </div>
+                <div class="testimonial-grid">
+                    <article class="testimonial-card" data-reveal>
+                        <p>
+                            "La diferencia fue inmediata: el contenido se empezo a sentir mas serio, mas claro y mucho
+                            mas facil de consumir."
+                        </p>
+                        <strong>Maria Gonzalez</strong>
+                        <span>Creadora de contenido</span>
+                    </article>
 
-                <div class="footer-divider"></div>
+                    <article class="testimonial-card" data-reveal>
+                        <p>
+                            "No solo mejoro la estetica. Tambien mejoro la forma en la que la gente entendio lo que
+                            estabamos vendiendo."
+                        </p>
+                        <strong>Carlos Martinez</strong>
+                        <span>Director de marketing</span>
+                    </article>
 
-                <div class="footer-info">
-                    <p>&copy; 2026 VideoEditor. Todos los derechos reservados.</p>
+                    <article class="testimonial-card" data-reveal>
+                        <p>
+                            "El resultado final se siente premium. Eso cambia por completo como se percibe la marca."
+                        </p>
+                        <strong>Ana Rodriguez</strong>
+                        <span>Fundadora</span>
+                    </article>
                 </div>
             </div>
+        </section>
+
+        <section class="section final-cta" id="contact">
+            <div class="container">
+                <div class="cta-panel" data-reveal>
+                    <p class="eyebrow">CTA final</p>
+                    <h2>Si tu contenido merece verse premium, hablemos.</h2>
+                    <p>
+                        Puedo ayudarte a convertir ideas, tomas sueltas o piezas planas en videos que se sienten mas
+                        valiosos, mas claros y mucho mas memorables.
+                    </p>
+
+                    <div class="cta-actions">
+                        <a href="mailto:contacto@videoeditor.com" class="btn btn-primary">Pedir propuesta</a>
+                        <a href="https://wa.me/5491112345678?text=Hola%2C%20quiero%20mejorar%20la%20edicion%20de%20mi%20contenido."
+                            target="_blank" rel="noreferrer" class="btn btn-secondary btn-secondary-dark">Hablar por
+                            WhatsApp</a>
+                    </div>
+
+                    <ul class="cta-notes" aria-label="Notas de contacto">
+                        <li>Respuesta clara y rapida</li>
+                        <li>Feedback sin friccion</li>
+                        <li>Piezas listas para publicar</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-row">
+            <p>Matias Ortiz</p>
+            <p>Edicion premium para redes, ads y marcas.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
 </body>
 
 </html>
